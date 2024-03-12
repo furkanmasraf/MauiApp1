@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MainPage">
+
+
+    <StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="X"
+                   FontSize="20"
+                   TextColor="White"
+                   BackgroundColor="Maroon"
+                   FontAttributes="Bold"
+                   WidthRequest="50"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"/>
+            <Entry x:Name="XX"
+                   WidthRequest="100"
+                   FontSize="20"/>
+        </StackLayout>
+
+
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Y"
+                   FontSize="20"
+                   TextColor="White"
+                   BackgroundColor="Maroon"
+                   FontAttributes="Bold"
+                   WidthRequest="50"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"/>
+            <Entry x:Name="YY"
+                   WidthRequest="100"
+                   FontSize="20"/>
+        </StackLayout>
+
+        <Button x:Name="Add_Button" Text="Add"
+                   HeightRequest="70"
+                   WidthRequest="100"
+                   Clicked="Add_Button_Clicked"/>
+
+
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Result"/>
+            <Entry x:Name="ZZ"/>
+        </StackLayout>
+
+    </StackLayout>
+</ContentPage>
